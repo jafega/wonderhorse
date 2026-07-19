@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
@@ -21,7 +30,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Ver los sudaderos",
-            "button_link_1": "shopify://collections/all",
+            "button_link_1": "shopify://collections/sudaderos",
             "button_style_secondary_1": false,
             "button_label_2": "Nuestra historia",
             "button_link_2": "shopify://pages/nuestra-historia",
@@ -29,17 +38,21 @@
           }
         }
       },
-      "block_order": ["heading", "text", "buttons"],
+      "block_order": [
+        "heading",
+        "text",
+        "buttons"
+      ],
       "settings": {
-        "image_overlay_opacity": 35,
+        "image_overlay_opacity": 30,
         "image_height": "large",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
         "image_behavior": "ambient",
+        "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
+        "show_text_box": false,
         "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
         "show_text_below": false
       }
     },
@@ -75,7 +88,12 @@
           }
         }
       },
-      "block_order": ["caption", "heading", "text", "button"],
+      "block_order": [
+        "caption",
+        "heading",
+        "text",
+        "button"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -88,20 +106,19 @@
     "sudaderos": {
       "type": "featured-collection",
       "settings": {
+        "collection": "sudaderos",
+        "products_to_show": 8,
         "title": "Sudaderos con actitud",
         "heading_size": "h1",
-        "description": "Diseños que hacen girar cabezas en la cuadra y en la pista.",
+        "description": "<p>Diseños que hacen girar cabezas en la cuadra y en la pista.</p>",
         "show_description": true,
         "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "enable_desktop_slider": true,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "swipe_on_mobile": true,
+        "color_scheme": "scheme-1",
         "image_ratio": "portrait",
         "image_shape": "arch",
         "show_secondary_image": true,
@@ -109,6 +126,7 @@
         "show_rating": false,
         "quick_add": "standard",
         "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 48,
         "padding_bottom": 52
       }
@@ -144,17 +162,21 @@
           }
         }
       },
-      "block_order": ["col1", "col2", "col3"],
+      "block_order": [
+        "col1",
+        "col2",
+        "col3"
+      ],
       "settings": {
         "title": "Por qué Wonderhorse",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -183,23 +205,27 @@
           "type": "button",
           "settings": {
             "button_label": "Explora la colección",
-            "button_link": "shopify://collections/all",
+            "button_link": "shopify://collections/sudaderos",
             "button_style_secondary": false
           }
         }
       },
-      "block_order": ["heading", "text", "button"],
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
       "settings": {
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
+        "image_behavior": "ambient",
+        "content_layout": "no-overlap",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "mobile_content_alignment": "center",
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-5",
-        "mobile_content_alignment": "center",
-        "image_behavior": "ambient",
         "padding_top": 40,
         "padding_bottom": 40
       }
@@ -221,13 +247,18 @@
           }
         },
         "email_form": {
-          "type": "email_form"
+          "type": "email_form",
+          "settings": {}
         }
       },
-      "block_order": ["heading", "paragraph", "email_form"],
+      "block_order": [
+        "heading",
+        "paragraph",
+        "email_form"
+      ],
       "settings": {
-        "full_width": true,
         "color_scheme": "scheme-4",
+        "full_width": true,
         "padding_top": 56,
         "padding_bottom": 56
       }
