@@ -1,0 +1,74 @@
+/* ============================================================
+   Wonderhorse — capa de personalidad sobre Dawn
+   Paleta: crema, marrón cuero, terracota, verde salvia,
+   azul cielo y mostaza (la estrella de la espuela del logo).
+   ============================================================ */
+
+/* Titulares con más carácter: peso alto y letras juntas */
+.h0,
+.h1,
+h1,
+.section-header h2,
+.title-wrapper h2 {
+  letter-spacing: -0.01em;
+  line-height: 1.08;
+}
+
+/* Un guiño "sticker" en la barra de anuncios */
+.announcement-bar__message {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* Botones con alma: mayúsculas suaves y algo más de aire */
+.button,
+.shopify-payment-button__button--unbranded {
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.button:not([disabled]):hover {
+  transform: translateY(-2px);
+}
+
+/* Tarjetas de producto que cobran vida al pasar por encima */
+.card-wrapper {
+  transition: transform 0.2s ease;
+}
+.card-wrapper:hover {
+  transform: translateY(-4px);
+}
+.card-wrapper:hover .card__media {
+  filter: saturate(1.08);
+}
+
+/* Etiquetas de oferta tipo "pegatina" del oeste */
+.card__badge .badge {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* Caption de las secciones (ej. "Hecho por y para jinetes")
+   con aire de sello artesanal */
+.caption-with-letter-spacing {
+  font-weight: 600;
+  letter-spacing: 0.18em;
+}
+
+/* El nombre de marca en el header, un pelín más redondo */
+.header__heading-logo,
+.header__heading-link .h2 {
+  letter-spacing: -0.01em;
+}
+
+/* Newsletter y bloques de color: bordes internos suaves
+   para que todo respire ese rollo moderno-artesanal */
+.newsletter-form__field-wrapper .field__input {
+  border-radius: 30px;
+}
+
+/* Cursor amable en enlaces del footer */
+.footer-block__heading {
+  letter-spacing: 0.01em;
+}
